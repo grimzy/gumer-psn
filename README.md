@@ -1,9 +1,13 @@
 gumer-psn
 =========
 
-A Playstation Network API written in Node.js (maybe more languages in the future)
+A Playstation Network API written in Node.js
 
 **v0.1.1**
+
+Another languages:
+
+PHP: https://github.com/ilendemli/gumer-psn-php by @ilendemli
 
 ##About
 This script uses the method found in Sony's official Android application that sends JSON in every response and NOT xml.
@@ -16,6 +20,7 @@ For now this script can get:
 	* **NOTE**: It doesn't get hidden trophies (for now). *See known limitations below*
  
 ###Features planned
+* Caching
 * Friends
  	* Friends management (add, delete, block)
 	* Messaging (chat) *Voice/Image support will be added someday, no way to test it without a PSVITA/PS3/PS4 system*
@@ -25,18 +30,18 @@ For now this script can get:
 * Notifications
 * User friend list (depends on user's privacy)
 
-##Requierements
+##Requirements
 * A valid PSN account *(can be new)*
 * Node.js >= 0.8.x
 * JavaScript knowledge, lol
 
 ##Installing
 
-You can install it by installing the package
+You can install it with the package manager
 
 		npm install gumer-psn
 		
-You can also clone this repository by doing
+Or clone the repository and install the dependencies
 
 		git clone https://github.com/jhewt/gumer-psn.git
 		cd gumer-psn/
